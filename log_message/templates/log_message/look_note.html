@@ -1,0 +1,15 @@
+{% extends 'index/index.html' %}
+
+{% block title %}
+    <title>查看笔记</title>
+{% endblock %}
+
+{% block login %}
+    <p>
+        标题：<input type="text" name="title" value="{{ note.title }}">
+        <a href="/note/">返回列表</a>
+    </p>
+    <p>
+        <textarea cols="40" rows="20" name="content">{{ note.content }}</textarea>
+    </p>
+{% endblock %}

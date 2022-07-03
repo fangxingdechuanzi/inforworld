@@ -1,0 +1,183 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Sat May  7 23:38:20 2022] ***
+compiled with version: 9.4.0 on 21 April 2022 15:17:37
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: chuanzi-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/chuanzi/文档/project/inforworld/inforworld
+writing pidfile to uwsgi.pid
+detected binary path: /home/chuanzi/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/chuanzi/文档/project/inforworld
+your processes number limit is 15281
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37915 (port auto-assigned) fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x559668990b60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166688 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559668990b60 pid: 4133 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4133)
+spawned uWSGI worker 1 (pid: 4165, cores: 2)
+spawned uWSGI http 1 (pid: 4166)
+[pid: 4165|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 772 bytes} [Sat May  7 23:38:58 2022] GET /user/reg/ => generated 460 bytes in 68 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4166)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Sun May  8 10:06:33 2022] ***
+compiled with version: 9.4.0 on 21 April 2022 15:17:37
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: chuanzi-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/chuanzi/文档/project/inforworld/inforworld
+writing pidfile to uwsgi.pid
+detected binary path: /home/chuanzi/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/chuanzi/文档/project/inforworld
+your processes number limit is 15281
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55a74624fa70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166688 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a74624fa70 pid: 5925 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5925)
+spawned uWSGI worker 1 (pid: 5957, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 5957|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 788 bytes} [Sun May  8 10:07:56 2022] GET /index/ => generated 647 bytes in 58 msecs (HTTP/1.1 200) 7 headers in 221 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 5957|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 720 bytes} [Sun May  8 10:07:56 2022] GET /favicon.ico => generated 2425 bytes in 19 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5957|app: 0|req: 3/3] 127.0.0.1 () {48 vars in 776 bytes} [Sun May  8 10:08:11 2022] GET / => generated 2374 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+Not Found: /in/
+[pid: 5957|app: 0|req: 4/4] 127.0.0.1 () {48 vars in 782 bytes} [Sun May  8 10:08:18 2022] GET /in/ => generated 2401 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+[pid: 5957|app: 0|req: 5/5] 127.0.0.1 () {48 vars in 788 bytes} [Sun May  8 10:08:24 2022] GET /index/ => generated 647 bytes in 2 msecs (HTTP/1.1 200) 7 headers in 221 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 5957|app: 0|req: 6/6] 127.0.0.1 () {48 vars in 794 bytes} [Sun May  8 11:10:45 2022] GET /user/reg/ => generated 460 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 5957|app: 0|req: 7/7] 127.0.0.1 () {46 vars in 723 bytes} [Sun May  8 11:10:45 2022] GET /favicon.ico => generated 2425 bytes in 15 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+Not Found: /user/
+[pid: 5957|app: 0|req: 8/8] 127.0.0.1 () {48 vars in 786 bytes} [Sun May  8 11:16:23 2022] GET /user/ => generated 2775 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+[pid: 5957|app: 0|req: 9/9] 127.0.0.1 () {48 vars in 788 bytes} [Sun May  8 11:16:33 2022] GET /index/ => generated 647 bytes in 2 msecs (HTTP/1.1 200) 7 headers in 221 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5957|app: 0|req: 10/10] 127.0.0.1 () {48 vars in 776 bytes} [Sun May  8 11:16:38 2022] GET / => generated 2374 bytes in 3 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5957|app: 0|req: 11/11] 127.0.0.1 () {48 vars in 776 bytes} [Sun May  8 11:16:51 2022] GET / => generated 2374 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+[pid: 5957|app: 0|req: 12/12] 127.0.0.1 () {48 vars in 788 bytes} [Sun May  8 11:17:16 2022] GET /index/ => generated 647 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 221 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5957|app: 0|req: 13/13] 127.0.0.1 () {48 vars in 776 bytes} [Sun May  8 11:19:34 2022] GET / => generated 2374 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Sun May  8 11:48:54 2022] ***
+compiled with version: 9.4.0 on 21 April 2022 15:17:37
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: chuanzi-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/chuanzi/文档/project/inforworld/inforworld
+writing pidfile to uwsgi.pid
+detected binary path: /home/chuanzi/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/chuanzi/文档/project/inforworld
+your processes number limit is 15281
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x561c89406a70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166688 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561c89406a70 pid: 3199 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3199)
+spawned uWSGI worker 1 (pid: 3231, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 3231|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 794 bytes} [Sun May  8 11:53:58 2022] GET /user/reg/ => generated 460 bytes in 51 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 3231|app: 0|req: 2/2] 127.0.0.1 () {48 vars in 776 bytes} [Sun May  8 11:54:04 2022] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 227 bytes (1 switches on core 1)
+[pid: 3231|app: 0|req: 3/3] 127.0.0.1 () {48 vars in 788 bytes} [Sun May  8 11:54:04 2022] GET /index/ => generated 647 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 221 bytes (1 switches on core 0)
+[pid: 3231|app: 0|req: 4/4] 127.0.0.1 () {48 vars in 776 bytes} [Sun May  8 11:54:17 2022] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 302) 7 headers in 227 bytes (1 switches on core 0)
+[pid: 3231|app: 0|req: 5/5] 127.0.0.1 () {48 vars in 788 bytes} [Sun May  8 11:54:17 2022] GET /index/ => generated 647 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 221 bytes (1 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.

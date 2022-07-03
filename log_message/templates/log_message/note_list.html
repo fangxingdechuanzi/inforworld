@@ -1,0 +1,45 @@
+{% extends 'index/index.html' %}
+
+{% block title %}
+    <title>笔记列表</title>
+{% endblock %}
+
+{% block login %}
+<!--笔记列表-->
+<div>
+<p>
+    <a>{{ request.session.username }}的笔记</a>
+    <a href="/note/add/">添加笔记</a>
+</p>
+    <p>
+    <table border="1">
+        <tr>
+            <th>标题</th>
+            <th>创建时间</th>
+            <th>更新时间</th>
+            <th>op</th>
+            <th>分享</th>
+            <th>获赞</th>
+
+        </tr>
+        {% for note in all_note %}
+            <tr>
+                <td>
+                    <a href="/note/look/{{ note.id }}">{{ note.title }}</a>
+                </td>
+                <td>{{ note.created_time }}</td>
+                <td>{{ note.updated_time }}</td>
+                <td>
+                    <a href="/note/update_note/{{ note.id }}">更新</a>
+                    <a href="/note/del_note/{{ note.id }}">删除</a>
+                </td>
+                <td>
+                    <a href="">公开</a>
+                </td>
+                <td>110</td>
+            </tr>
+        {% endfor %}
+    </table>
+    </p>
+</div>
+{% endblock %}

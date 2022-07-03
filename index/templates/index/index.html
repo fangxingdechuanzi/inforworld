@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+    <title>首页</title>
+    {% endblock %}
+</head>
+<body>
+<div>
+    <a target="_blank" style="color:red;">信息世界</a>
+    <a target="_blank" href="/index/">首页</a>
+    <a target="_blank" href="/note/">记录信息</a>
+    <a target="_blank" href="">分享信息</a>
+    <a target="_blank" href="">实用工具</a>
+    <a target="_blank" href="">生活娱乐</a>
+</div>
+{% block login %}
+<div>
+{% if request.session.username %}
+    {% block username %}
+<p>
+    欢迎 {{ request.session.username }}
+</p>
+<p>
+    <a href="/user/logout/">退出登录</a>
+</p>
+    {% endblock %}
+{% elif request.COOKIES.username %}
+    <p>
+        欢迎 {{ request.COOKIES.username }}
+    </p>
+    <p>
+        <a href="/user/logout/">退出登录</a>
+    </p>
+{% else %}
+<p>
+    <a href="/user/login/">登录</a>
+    <a href="/user/reg/">注册</a>
+</p>
+{% endif %}
+</div>
+{% endblock %}
+
+{% block last %}
+<div>
+    <a href="/index/contact/">联系我们</a>
+    <a href="">欢迎加入</a>
+</div>
+{% endblock %}
+</body>
+</html>
